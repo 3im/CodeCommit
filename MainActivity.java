@@ -126,7 +126,7 @@ public class MainActivity extends ActionBarActivity {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            return ("City: " + city + "\nTemperature: " + temperature + "\nPressure: ");
+            return ("City: " + city + "\nTemperature: " + temperature);
         }
 
         protected void onPostExecute(String result) {
